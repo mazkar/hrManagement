@@ -1,0 +1,9 @@
+export const AUTH_SIGN_IN = '@auth/SIGN_IN_REQUEST';
+export const AUTH_SIGN_IN_SUCCESS = '@auth/SIGN_IN_SUCCESS';
+export const AUTH_SIGN_IN_FAILURE = '@auth/SIGN_IN_FAILURE';
+export const AUTH_SIGN_OUT = '@auth/SIGN_OUT';
+export const AUTH_SIGN_OUT_SUCCESS = '@auth/SIGN_OUT_SUCCESS';
+export const AUTH_SIGN_OUT_FAILURE = '@auth/SIGN_OUT_FAILURE';
+export const AUTH_REFRESH_TOKEN = '@auth/REFRESH_TOKEN';
+export const AUTH_REFRESH_TOKEN_SUCCESS = '@auth/REFRESH_TOKEN_SUCCESS';
+export const AUTH_REFRESH_TOKEN_FAILURE = '@auth/REFRESH_TOKEN_FAILURE';

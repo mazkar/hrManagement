@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "FamsHr",
+    "slug": "FamsHr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mazkarhrm.FamsHr"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app need to accesses your camera"
+        }
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsVersion": "11.0.0",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoibWF6a2FyMjciLCJhIjoiY2xxdXMzMW8xNGIwMTJrcnlyaTM4eWRwaSJ9.mTY_nxq-fBI15FXQNiemUA"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6fb37469-d932-476b-b58e-0af601a35447"
+      }
+    }
+  }
+}
